@@ -4,9 +4,14 @@
 
   &__title {
     @include title-style;
+    @include desktop-only {
+      font-size: 3rem;
+      text-align: start;
+      margin: 3rem 0 0rem 10rem;
+    }
   }
   &__contain {
-    width: 95%;
+    width: 87%;
     margin: 0 auto;
     @include desktop-only {
       display: flex;
@@ -39,7 +44,7 @@
     @include desktop-only {
       margin: 4rem 1.5rem;
       width: 95%;
-      height: 8rem;
+      height: 9rem;
     }
   }
   &__number {

@@ -26,15 +26,5 @@
   @include tablet-only {
     text-align: center;
     font-size: 3rem;
-    &::before,
-    &::after {
-      content: "";
-      display: inline-block;
-      width: 10rem;
-      height: 0.2rem;
-      background-color: $color-tertiary;
-      vertical-align: middle;
-      margin: 0 2rem;
-    }
   }
 }

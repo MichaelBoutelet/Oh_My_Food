@@ -8,6 +8,10 @@
   &__title {
     @include title-style;
     padding-top: 3rem;
+    @include desktop-only {
+      text-align: start;
+      margin: 1rem 0 1rem 10rem;
+    }
   }
 
   &__general {
@@ -21,6 +25,9 @@
     @include tablet-only {
       width: 100%;
     }
+    @include desktop-only {
+      width: 93%;
+    }
   }
   &__card {
     width: 100%;
@@ -32,6 +39,10 @@
     @include tablet-only {
       width: 47%;
       margin-bottom: 2rem;
+    }
+    @include desktop-only {
+      width: 42%;
+      margin-bottom: 7rem;
     }
   }
   &__image {
