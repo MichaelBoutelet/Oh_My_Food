@@ -691,6 +691,7 @@ footer i {
   white-space: nowrap;
   text-overflow: ellipsis;
   animation: appearance 1s backwards;
+  background-color: #fff;
 }
 
 .menu__description {

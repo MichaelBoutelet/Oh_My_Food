@@ -94,8 +94,7 @@
         }
         .line {
           width: 6rem;
-          margin-left: .1rem;
-
+          margin-left: 0.1rem;
         }
       }
     }
@@ -127,6 +126,7 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   animation: appearance 1s backwards;
+  background-color: #fff;
 }
 
 .menu__description {
